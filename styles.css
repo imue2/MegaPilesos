@@ -1,25 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
+   background-color: #4CAF50;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+header img {
+   width: 400px;   /* Добавьте ширину изображения */
+   height: auto;   /* Высота будет определяться автоматически */
 }
 
 section {
-   margin: 20px;
+   padding: 20px;
+}
+
+.project-list {
+   list-style-type: none; /* Убираем маркеры из списка */
 }
 
 footer {
    text-align: center;
    padding: 10px;
    background-color: #f1f1f1;
-   position: fixed;
-   width: 100%;
-   bottom: 0;
 }
